@@ -2,11 +2,6 @@
 
 A Python-based Statistical Process Control (SPC) system for real-time quality monitoring in industrial packaging production lines using camera-based inspection systems.
 
-[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?logo=numpy&logoColor=white)](https://numpy.org/)
-[![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?logo=matplotlib&logoColor=black)](https://matplotlib.org/)
-
 ## 🎯 Overview
 
 This project implements a **Statistical Process Control (SPC)** and alarm system designed for packaging production lines equipped with camera-based quality inspection systems. The system monitors production processes in real-time, detects anomalies, and provides instant alerts based on established control rules.
@@ -17,7 +12,7 @@ This project implements a **Statistical Process Control (SPC)** and alarm system
 - 📈 **p-Chart Control Limits** - Automatic calculation of CL, UCL, and LCL
 - ⚠️ **Nelson Rules Implementation** - First 4 rules for anomaly detection
 - 📊 **Visual Dashboard** - Summary charts showing all production lines
-- 🔄 **Monte Carlo Simulation** - Converts monthly data to hourly simulations
+- 🔄 **Stochastic Simulation** - Converts monthly data to hourly simulations
 - 🎛️ **Adjustable Variance** - Test different process scenarios (sigma parameter)
 
 ## 🏭 Use Case
@@ -44,15 +39,10 @@ matplotlib >= 3.3.0
 
 ## 🚀 Installation
 
-1. **Clone the repository**
+**Clone the repository**
 ```bash
-git clone https://github.com/yourusername/spc-packaging-control.git
+git clone https://github.com/bugraozturk-ie/spc-packaging-control.git
 cd spc-packaging-control
-```
-
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
 ```
 
 Or install manually:
@@ -273,10 +263,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 **Buğra Öztürk**
@@ -292,7 +278,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help, please:
 - Open an issue on GitHub
-- Contact: [your-email@example.com]
+- Contact: [bugraozturk.ie@gmail.com]
 
 ## 🔮 Future Work
 
